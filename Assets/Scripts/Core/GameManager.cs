@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
 
 	public void CheckCells()
 	{
-		for (int i = 0; i < 8; i++)
+		for (int i = 0; i < 8; i++) 
 		{
 			var tempCells = new List<Cell>();
 			for (int j = 0; j < 3; j++)
